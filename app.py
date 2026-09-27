@@ -33,10 +33,10 @@ try:
     DB_NAME = st.secrets["mysql"]["database"]
 except Exception:
     # Cấu hình trực tiếp trên máy local (Lưu ý: Thay đổi password nếu đổi trên Aiven)
-    DB_USER = "Avnadmin" # sửa lại user
+    DB_USER = "avnadmin" # sửa lại user
     DB_PASSWORD = "AVNS_eburXOFzrrvIlgMy0-p" # sửa lại password
     DB_HOST = "mysql-1912da87-giabao9441-c602.k.aivencloud.com" # sửa lại host
-    DB_PORT = 13463 # sửa lại port
+    DB_PORT = 13459 # sửa lại port
     DB_NAME = "defaultdb"
 
 # ------------------------------------------------------------------
